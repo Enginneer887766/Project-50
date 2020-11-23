@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    
+    background-color: antiquewhite;
+}
+
+.origamiContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    
+}
+.origami, p , a {
+    display: flex;
+    align-self: flex-start;
+   
+    
+
+}
+iframe {
+    
+    align-self: flex-end;
+}
+
+p {
+    font-family: comic sans ms;
+    align-self: center;
+}
+.pic {
+    align-content: flex-end;
+    align-self: flex-end;
+}
